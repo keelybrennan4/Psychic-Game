@@ -10,12 +10,19 @@
 </head>
 <body>
 <h1>The Psychic Game</h1>
+<div class = "form">
 <label for="guessField">Guess what letter I'm thinking of:</label><input type="text" id="guessField" class="guessField">
 <input type="submit" value="Submit guess" class="guessSubmit">
-<p id="wins">Wins:</p>
-<p id = "losses">Losses:</p>
-<p id = "guessesRemaining">Guesses Left:</p>
-<p id = "userGuesses">Your Guesses So Far:</p>
+</div>
+
+<div class = "resultParas">
+<p class="lastResult"></p>
+<p class="guesses">Your Guesses So Far:</p>
+<p class="guessCount">Guesses Remaining: </p>
+</div>
+
+<p class="wins">Wins:</p>
+<p class="losses">Losses:</p>
 
     <script src="assets/javascript/game.js"></script>
 </body>
